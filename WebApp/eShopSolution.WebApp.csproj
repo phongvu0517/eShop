@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\eShopSolution.Application.csproj" />
+    <ProjectReference Include="..\Data\eShopSolution.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MyLibrary">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\MyLibrary\v4.0_1.0.0.0__4dd79320574043cb\MyLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
